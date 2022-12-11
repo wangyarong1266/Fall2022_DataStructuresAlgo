@@ -8,8 +8,7 @@ public class NumberOfIslands {
     public static void main(String[] args) {
         NumberOfIslands sol = new NumberOfIslands();
 
-        int[][] grid1 = {
-                {1, 1, 1, 1, 0},
+        int[][] grid1 = {{1, 1, 1, 1, 0},
                 {1, 1, 0, 1, 0},
                 {1, 1, 0, 0, 0},
                 {0, 0, 0, 0, 0}};
@@ -19,8 +18,7 @@ public class NumberOfIslands {
                 {1, 1, 0, 0, 0},
                 {1, 1, 0, 0, 0},
                 {0, 0, 1, 0, 0},
-                {0, 0, 0, 1, 1}
-        };
+                {0, 0, 0, 1, 1}};
         assert sol.countNumberOfIslands(grid2) == 3;
     }
 

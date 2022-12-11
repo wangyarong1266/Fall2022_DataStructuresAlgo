@@ -6,8 +6,8 @@ public class Anagram {
 
     public static void main(String[] args) {
         Anagram sol = new Anagram();
-        List<String> strs = Arrays.asList("eat", "tea", "tan", "ate", "nat", "bat");
-        List<List<String>> ans = sol.groupAnagrams(strs);
+        List<String> strings = Arrays.asList("eat", "tea", "tan", "ate", "nat", "bat");
+        List<List<String>> ans = sol.groupAnagrams(strings);
 
         for (List<String> ana : ans) {
             for (String i : ana) {

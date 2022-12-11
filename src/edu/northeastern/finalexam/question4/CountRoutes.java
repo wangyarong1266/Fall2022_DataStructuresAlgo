@@ -6,7 +6,6 @@ public class CountRoutes {
         CountRoutes sol = new CountRoutes();
         int[][] grid1 = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
         assert sol.countRoutes(grid1) == 2;
-
         int[][] grid2 = {{0, 1}, {0, 0}};
         assert sol.countRoutes(grid2) == 1;
     }

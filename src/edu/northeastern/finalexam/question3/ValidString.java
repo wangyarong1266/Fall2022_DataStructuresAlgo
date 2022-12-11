@@ -9,7 +9,6 @@ public class ValidString {
 
     public static void main(String[] args) {
         ValidString sol = new ValidString();
-
         System.out.println(sol.removeParentheses("lee(t(c)o)de)"));
         System.out.println(sol.removeParentheses("a)b(c)d"));
         System.out.println(sol.removeParentheses("))(("));
