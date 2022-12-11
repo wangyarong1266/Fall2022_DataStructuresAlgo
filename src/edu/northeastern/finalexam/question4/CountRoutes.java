@@ -11,6 +11,7 @@ public class CountRoutes {
         assert sol.countRoutes(grid2) == 1;
     }
 
+    /* The time complexity is O(NM) where N and M are the sizes of the input grid. */
     public int countRoutes(int[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
